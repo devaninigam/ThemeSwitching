@@ -1,27 +1,75 @@
-# React + TypeScript + Vite
+# ThemeSwitching
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application that allows users to switch between Light and Dark modes, as well as customize the theme color. Built using React and TypeScript with Vite for fast development.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Theme Switching**: Toggle between light and dark themes.
+- **Color Customization**: Choose from a set of predefined colors (Orange, Red, Green, Pink, Blue).
+- **User Profile Management**: Update user information such as name, phone number, and department.
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Home Page
+This is home page and add you favorite code in over page.
+![Screenshot (36)](https://github.com/user-attachments/assets/169fde05-7ad0-4cc3-8d98-284c9774564c)
 
-- Configure the top-level `parserOptions` property like this:
+### Default Theme
+This is the default theme and change color try to using this module. 
+![Screenshot (37)](https://github.com/user-attachments/assets/636a762d-783f-4c3a-ae4f-d1b62868e89f)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### Light Mode
+This is the default theme for the application. 
+![Screenshot (38)](https://github.com/user-attachments/assets/83ade6dc-60e4-41b3-9d0b-2ce746d307f3)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Green Theme
+An example of the green color scheme applied in the light mode. 
+![Vite-React-TS](https://github.com/user-attachments/assets/ca441066-9239-4a5e-93be-309a2d4c0e1c)
+
+### Dark Mode
+The dark mode for users who prefer a darker interface. 
+![Vite-React-TS (1)](https://github.com/user-attachments/assets/7b0d793d-a488-4c1b-b304-9047cf6d4c99)
+
+## Technology Stack
+
+- **Frontend**: React + TypeScript
+- **Styling**: CSS (with theme switching)
+- **Build Tool**: Vite
+
+## Installation
+
+Follow the steps below to set up the project on your local machine:
+
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/your-repository-path/ThemeSwitching.git
+    ```
+   
+2. **Navigate to the Project Directory**
+    ```bash
+    cd ThemeSwitching
+    ```
+
+3. **Install Dependencies**
+    ```bash
+    npm install
+    ```
+
+4. **Start the Development Server**
+    ```bash
+    npm run dev
+    ```
+
+    Vite will start the server and the app will be available at `http://localhost:3000`.
+
+## Usage
+
+Once the app is running:
+
+- Switch between light and dark modes using the toggle.
+- Customize the theme by selecting different colors.
+- Update your profile by entering your business and personal information.
+ 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
