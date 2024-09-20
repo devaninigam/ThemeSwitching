@@ -33,7 +33,7 @@ The dark mode for users who prefer a darker interface.
 ## Technology Stack
 
 - **Frontend**: React + TypeScript
-- **Styling**: CSS (with theme switching)
+- **Styling**: Tailwind (with theme switching)
 - **Build Tool**: Vite
 
 ## Installation
