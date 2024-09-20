@@ -4,7 +4,7 @@ A simple web application that allows users to switch between Light and Dark mode
 
 ## Features
 
-- **Theme Switching**: Toggle between light and dark themes.
+- **Theme Switching**: Toggle between light and dark themes. 
 - **Color Customization**: Choose from a set of predefined colors (Orange, Red, Green, Pink, Blue).
 - **User Profile Management**: Update user information such as name, phone number, and department.
 
